@@ -5,7 +5,7 @@ export default function Card(props) {
             <img className="card-img" src={props.imageUrl} alt="" />
             <div className="card-data">
                 <div className="location-data">
-                    <img className="locationMarker" src="../../public/images/location-marker.png" alt="" />
+                    <img className="locationMarker" src={require("../../src/assets/images/location-marker.png")} alt="" />
                     <span className="countryName">{props.location}</span>
                     <span className="mapLink"><a href={props.googleMapsUrl}>View on Google Maps</a></span>
                 </div>
