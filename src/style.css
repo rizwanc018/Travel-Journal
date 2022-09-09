@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+:root {
+    --navbar-bg-clr: hsla(0, 89%, 66%,1);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--navbar-bg-clr);
+    gap: .6rem;
+    color: white;
+    padding-block: 1.25rem;
+    line-height: 1.2rem;
+    font-weight: 500;
+}
+
+.card {
+    display: flex;
+    gap: 1.2rem;
+    align-items: center;
+    margin-inline: 2.5rem;
+    padding-block: 3rem 1rem;
+    border-bottom: 1px solid hsla(0, 0%, 93%, 1);
+    width: max(500px, 60vw);
+    margin: auto;
+}
+
+.card-img {
+    max-width: 7.75rem;
+    border-radius: 8px;
+    height: 10rem;
+    object-fit: cover;
+}
+
+.countryName {
+    padding-inline-start: .25rem;
+    padding-inline-end: .75rem;
+    letter-spacing: 0.17em;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.mapLink a{
+    color: hsla(254, 6%, 58%, 1);
+    font-size: 12px;
+}
+
+.card-title {
+    margin-top:.5rem;
+}
+
+.card-date {
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: .5rem;
+}
+
+.card-journal {
+    margin: 0;
+    color: hsla(250, 18%, 19%, 1);
+    font-size: 12px;
+    line-height: 1.1rem;
+}
+
+
